@@ -56,9 +56,11 @@ Stepper motor steps generate high-frequency mechanical noise that propagates int
 | :---: |
 
 With LPF:
+
 <img src="assets/LPF_stats.png" width="400" alt="Robot Demo">
 
 Without LPF:
+
 <img src="assets/No_LPF_stats.png" width="400" alt="Robot Demo">
 
 ---
@@ -67,7 +69,9 @@ Without LPF:
 
 Check out the robot in action:
 
-<video src="assets/vid2.mp4" width="400" controls></video>
+<p align="center">
+  <img src="assets/vid2.gif" width="450" alt="Robot Demo GIF">
+</p>
 
 ---
 
