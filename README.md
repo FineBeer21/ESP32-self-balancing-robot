@@ -55,10 +55,10 @@ Stepper motor steps generate high-frequency mechanical noise that propagates int
 | Raw Sensor Noise vs Filtered Output |
 | :---: |
 
-* With LPF
+With LPF:
 <img src="assets/LPF_stats.png" width="400" alt="Robot Demo">
 
-* Without LPF
+Without LPF:
 <img src="assets/No_LPF_stats.png" width="400" alt="Robot Demo">
 
 ---
