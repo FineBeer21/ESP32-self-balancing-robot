@@ -54,8 +54,12 @@ Stepper motor steps generate high-frequency mechanical noise that propagates int
 * **Takeaway:** Digital filtering alone proved insufficient due to the latency constraint. Future iterations require hardware-level fixes, maybe vibration dampeners under the IMU or transitioning to a rigid custom PCB.
 | Raw Sensor Noise vs Filtered Output |
 | :---: |
-| ![With LPF Graph](assets/LPF_stats.png) | 
-| ![Without LPF Graph](assets/No_LPF_stats.png) | 
+
+* With LPF
+<img src="assets/LPF_stats.png" width="400" alt="Robot Demo">
+
+* Without LPF
+<img src="assets/No_LPF_stats.png" width="400" alt="Robot Demo">
 
 ---
 
