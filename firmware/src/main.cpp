@@ -14,7 +14,7 @@ FastAccelStepperEngine engine = FastAccelStepperEngine();
 FastAccelStepper *leftMotor = NULL;
 FastAccelStepper *rightMotor = NULL;
 
-int motorAcceleration = 15000; // Acceleration in steps/s^2, you can change this value to adjust the acceleration of the motors
+int motorAcceleration = 15000; // You can change this value to adjust the acceleration of the motors
 
 MPU6050 mpu(Wire);
 
