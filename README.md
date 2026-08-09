@@ -24,8 +24,6 @@ The chassis was designed from scratch using **Fusion 360**. Key design considera
   * **Base Level:** Strongly recommended to print in **PETG** due to thermal output from the stepper motors. *(Printed in PLA for this build due to material availability, but PETG is advised).*
   * **Upper Levels:** Printed in **PLA** for flexibility and lower weight.
 
-> *Detailed slicing settings and print instructions can be found in cad_models README.
-
 ---
 
 ## Hardware & Assembly
