@@ -1,7 +1,7 @@
 # ESP32-self-balancing-robot
 A self-balancing, two-wheeled robot built from scratch using an ESP32 microcontroller, an MPU6050 IMU, and NEMA stepper motors. Using VS code with platformio
 
-![Robot Demo](assets/img2.jpeg) <!-- Replace with your image path -->
+<img src="assets/img2.jpeg" width="400" alt="Robot Demo">
 
 ---
 
@@ -63,7 +63,7 @@ Stepper motor steps generate high-frequency mechanical noise that propagates int
 
 Check out the robot in action:
 
-![Robot Video](assets/vid2.mp4) 
+<video src="assets/vid2.mp4" width="400" controls></video>
 
 ---
 
