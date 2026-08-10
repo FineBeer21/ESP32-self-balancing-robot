@@ -51,13 +51,14 @@ Stepper motor steps generate high-frequency mechanical noise that propagates int
 * **The Trade-off (Phase Lag):** While the LPF slightly softened raw signal spikes, it introduced phase delay (latency) into the feedback loop. For a fast-responding self-balancing system, this delay reduced PID responsiveness and compromised recovery time.
 * **Takeaway:** Digital filtering alone proved insufficient due to the latency constraint. Future iterations require hardware-level fixes, maybe vibration dampeners under the IMU or transitioning to a rigid custom PCB.
 
+Without LPF:
+
+<img src="assets/No_LPF_stats.png" width="400" alt="Robot Demo">
+
 With LPF:
 
 <img src="assets/LPF_stats.png" width="400" alt="Robot Demo">
 
-Without LPF:
-
-<img src="assets/No_LPF_stats.png" width="400" alt="Robot Demo">
 
 ---
 
